@@ -3,7 +3,7 @@
 		var policy = {
 			"expiration": "2014-10-31T00:00:00Z",
 			"conditions": [
-				{"bucket": "sister-test"},
+				{"bucket": "bucket-test"},
 				["starts-with", "$key", ""],
 				{"acl": "public-read"},
 				["starts-with", "$Content-Type", ""],
