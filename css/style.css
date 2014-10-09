@@ -1,0 +1,89 @@
+body {
+	background: #eee;
+	font-size: 100%;
+}
+h1 {
+	font-size: 2.8em;
+	text-align: center;
+}
+
+	#dropzone, #noZoneLayer {
+		background: #707070;
+		border: 4px dashed #303030;
+		border-radius: 15px;
+		display: block;
+/*		display: inline-block;*/
+		height: auto;
+		margin: 0px auto;
+		min-height: 400px;
+		width: 600px;
+	}
+	#dropzone {
+		position: relative;
+	}
+		#overlay {
+			background: rgba(255, 255, 255, 0.7)  url('../img/upload.gif') no-repeat center center;
+			background-size: 250px 150px;
+			border-radius: 15px;
+			height: 100%;
+			left: 0;
+			opacity: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: -1;
+			transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+			-o-transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+		}
+				.droppedItem {
+					background: url('../img/checkered.png');
+					border-radius: 7px;
+					display: inline-block;
+					height: 150px;
+					margin: 10px;
+					overflow: hidden;
+					position: relative;
+					vertical-align: middle;
+					width: 150px;
+				}
+					.droppedItem img {
+						display: block;
+						height: 100%;
+						margin: 0 auto;
+						width: auto;
+					}
+					.obj {
+						height: auto;
+						width: 100px;
+					}
+					.options {
+						background: rgba(48, 48, 48, 0.9);
+						bottom: -30px;
+						cursor: pointer;
+						height: 30px;
+						position: absolute;
+						width: 100%;
+						transition: bottom .3s ease-in-out .15s;
+						-moz-transition: bottom .3s ease-in-out .15s;
+						-o-transition: bottom .3s ease-in-out .15s;
+						-webkit-transition: bottom .3s ease-in-out .15s;
+					}
+						.options img {
+							height: 25px;
+							position: relative;
+							top: 2px;
+						}
+					.droppedItem:hover .options {
+						bottom: 0;
+					}
+	#selectFile {
+		color: lightgray;
+		cursor: pointer;
+		background: #404040;
+		border-radius: 2px;                                                                                                                                                                                        	margin: 0 auto;
+		padding: 10px 0;
+		text-align: center;
+		width: 70px;
+	}

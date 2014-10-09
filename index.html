@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html ondragover="return false" ondrop="return false">
+	<head>
+		<meta http-equiv="content-type" content="image/*"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<script type="text/javascript" src="js/jquery.js"></script>
+	</head>
+	<body>
+		<div id="dropzone">
+			<h1>Drop Files Here!</h1>
+			<div id="dropListing"></div>
+			<div id="overlay"></div>
+		</div>
+
+		<form id="bannerUploadForm" method="post" enctype="multipart/form-data">
+
+			<!-- Include any additional input fields here -->
+
+
+			File to upload to S3:
+			<input name="file" type="file" id="bannerFileSelect">
+
+
+
+		</form>
+
+		<div id="selectFile">upload</div>
+<!--
+		<div id="noZoneLayer" ondragover="return false" ondrop="return false">
+			<h1>Stop that!</h1>
+		</div>
+-->
+		<div id="upload" class="btn"></div>
+		<script type="text/javascript" src="js/site.js"></script>
+		<script type="text/javascript" src="js/s3.js"></script>
+	</body>
+</html>
