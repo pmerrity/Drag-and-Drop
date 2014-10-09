@@ -31,7 +31,7 @@ I removed my personal S3 credentials for obvious reasons. This is also tailored 
 * Tweak the AJAX call to retrieve your policy/signature
 * Add your `AWSAccessKeyId` to the variable `s3Key` in `s3.js` either in the script or dynamically (mine was just directly in the script).
 * Update the URL referencing the S3 bucket you will be uploading to. It is at the end of each function `uploadDragToS3` and `uploadToS3`. 
-* Finally, look at the `conditions` object and update the `bucket` to match the one you will be uploading to
+* Finally, look at the `conditions` object and update the field `bucket` to match the one you will be uploading to
 
 Bugs
 ----
