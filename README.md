@@ -4,7 +4,11 @@ Drag-Drop
 Description
 -----------
 
-This is a completed demo of a drag-and-drop upload box. This particular one integrates with Amazon's S3 web service.
+This is a completed demo of a drag-and-drop upload box. This particular one integrates with Amazon's S3 web service. Feel free to use it, and I would appreciate it if you linked your work to this repo or my portfolio:
+
+perrymerrity.com
+
+:]
 
 Features
 --------
